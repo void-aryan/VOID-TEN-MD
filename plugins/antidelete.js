@@ -1,6 +1,6 @@
 const config = require("../config");
 const { cmd } = require('../command');
-const { getAnti, setAnti, initializeAntiDeleteSettings } = require('../data/antidel');
+const { getAnti, setAnti, initializeAntiDeleteSettings } = require('../mydata/antidel');
 
 initializeAntiDeleteSettings();
 
