@@ -37,7 +37,7 @@ async (conn, mek, m, { from, reply }) => {
 *┃❍* *ᴠᴇʀsɪᴏɴs* : *1.0.0*
 *╰════════════════⊷*
 
-*_WELCOME TO MEGALODON MD_*
+*_WELCOME TO QUEEN ASUNA MD_*
 `;
 
     // Regroupement par catégorie
