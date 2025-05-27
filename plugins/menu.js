@@ -25,22 +25,24 @@ async (conn, mek, m, { from, reply }) => {
       return `${h}h ${m}m ${s}s`;
     };
 
-    // En-tête du menu sans time ni pushwish
+    // Menu stylisé
     let menuText = `
-*╭══〘 QUEEN-ASUNA-MD 〙*
-*┃❍* *ᴜsᴇʀ* : @${m.sender.split("@")[0]}
-*┃❍* *ʀᴜɴᴛɪᴍᴇ* : ${uptime()}
-*┃❍* *ᴍᴏᴅᴇ* : *${config.MODE}*
-*┃❍* *ᴘʀᴇғɪx* : [${config.PREFIX}]
-*┃❍* *ᴩʟᴜɢɪɴ* :  ${totalCommands}
-*┃❍* *ᴅᴇᴠ* : *inconnu boy*
-*┃❍* *ᴠᴇʀsɪᴏɴs* : *1.0.0*
-*╰════════════════⊷*
+╭━━━〔 *👸 QUEEN-ASUNA-MD 👸* 〕━━━╮
+┃ ✦ ᴀᴜᴛʜᴏʀ : @${m.sender.split("@")[0]}
+┃ ✦ ʀᴜɴᴛɪᴍᴇ : ${uptime()}
+┃ ✦ ᴍᴏᴅᴇ : *${config.MODE}*
+┃ ✦ ᴘʀᴇғɪx : [${config.PREFIX}]
+┃ ✦ ᴄᴍᴅs : ${totalCommands}
+┃ ✦ ᴅᴇᴠ : *INCONNU BOY*
+┃ ✦ ᴠᴇʀ : *1.0.0*
+╰━━━━━━━━━━━━━━━━━━━━━━╯
 
-*_WELCOME TO QUEEN ASUNA MD_*
+╭──〔 *WELCOME TO* 〕─────╮
+│   *♛ QUEEN ASUNA MD ♛*
+╰──────────────────────╯
 `;
 
-    // Regroupement par catégorie
+    // Regrouper les commandes par catégorie
     let category = {};
     for (let cmd of commands) {
       if (!cmd.category) continue;
@@ -50,13 +52,13 @@ async (conn, mek, m, { from, reply }) => {
 
     const keys = Object.keys(category).sort();
     for (let k of keys) {
-      menuText += `\n\n┌ ❏ 〤 *${k.toUpperCase()} MENU* 〤`;
+      menuText += `\n╭───〔 *${k.toUpperCase()} MENU* 〕───╮`;
       const cmds = category[k].filter(c => c.pattern).sort((a, b) => a.pattern.localeCompare(b.pattern));
       cmds.forEach((cmd) => {
         const usage = cmd.pattern.split('|')[0];
-        menuText += `\n├❍ \`${config.PREFIX}${usage}\``;
+        menuText += `\n│ ✧ \`${config.PREFIX}${usage}\``;
       });
-      menuText += `\n┗━━━━━━━━━━━━━━❍`;
+      menuText += `\n╰──────────────────────╯`;
     }
 
     menuText += `\n`;
@@ -83,4 +85,3 @@ async (conn, mek, m, { from, reply }) => {
     reply(`❌ Error: ${e.message}`);
   }
 });
-                                                           
