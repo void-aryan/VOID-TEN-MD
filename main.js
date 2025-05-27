@@ -114,7 +114,7 @@ const port = process.env.PORT || 9090;
   console.log('QUEEN ASUNA CONNECTED SUCCESSFULLY 👸')
   
   let up = `*Hello there queen asuna User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet QUEEN-ASUNA-MD WhatsApp Bot.\n\n *Thanks for using QUEEN ASUNA \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029Vb6T8td5K3zQZbsKEU1R\n\n- *YOUR PREFIX:* = ${prefix}\n\n- *BOT MODE:* = ${config.MODE}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/INCONNU-BOY/QUEEN-ASUNA-MD\n\n> © MADE BY INCONNU BOY\ud83d\udda4`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/82b8gr.jpg` }, caption: up })
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/p1xybt.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
