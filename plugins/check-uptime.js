@@ -1,5 +1,5 @@
 const { cmd } = require('../command');
-const { runtime } = require('../lib/functions');
+const { runtime } = require('../inconnuboy/functions');
 const config = require('../config');
 
 cmd({
