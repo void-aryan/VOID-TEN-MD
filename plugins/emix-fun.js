@@ -1,6 +1,6 @@
 const { cmd } = require("../command");
-const { fetchEmix } = require("../lib/emix-utils");
-const { getBuffer } = require("../lib/functions");
+const { fetchEmix } = require("../inconnuboy/emix-utils");
+const { getBuffer } = require("../inconnuboy/functions");
 const { Sticker, StickerTypes } = require("wa-sticker-formatter");
 
 cmd({
