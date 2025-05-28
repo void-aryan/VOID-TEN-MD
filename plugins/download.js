@@ -1,4 +1,4 @@
-const { fetchJson } = require("../lib/functions");
+const { fetchJson } = require("../inconnuboy/functions");
 const { downloadTiktok } = require("@mrnima/tiktok-downloader");
 const { facebook } = require("@mrnima/facebook-downloader");
 const cheerio = require("cheerio");
