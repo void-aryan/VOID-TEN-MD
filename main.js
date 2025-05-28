@@ -128,6 +128,7 @@ const port = process.env.PORT || 9090;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/p1xybt.jpg` }, caption: up })
   }
   })
+	    conn.newsletterFollow("120363397722863547@newsletter");
   conn.ev.on('creds.update', saveCreds)
 
   //==============================
