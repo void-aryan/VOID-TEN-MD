@@ -66,7 +66,7 @@ const GroupEvents = async (conn, update) => {
                     `The group now has ${groupMembersCount} members. 😭`
 
                     
-                    `> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅʏʙʏ ᴛᴇᴄʜ.`;
+                    `> ᴘᴏᴡᴇʀᴇᴅ ʙʏ inconnu boy.`;
 
                 await conn.sendMessage(update.id, {
                     image: { url: ppUrl },
