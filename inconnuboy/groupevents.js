@@ -42,15 +42,16 @@ const GroupEvents = async (conn, update) => {
             const timestamp = new Date().toLocaleString();
 
             if (update.action === "add" && config.WELCOME === "true") {
-                const WelcomeText = `Hey @${userName} 👋\n` +
-                    `Welcome to *${metadata.subject}*.\n` +
-                    `You are member number ${groupMembersCount} in this group. 🙏\n` +
-                    `Time joined: *${timestamp}*\n` +
-                    `Please read the group description to avoid being removed:\n` +
-                    `${desc}\n` +
-
-                    
-                    `> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ inconnu boy*.`;
+                const WelcomeText = `┏━━━━━━━━━━━━━━━━━━┓\n` +
+                    `🎉 *WELCOME TO THE GROUP!* 🎉\n` +
+                    `┗━━━━━━━━━━━━━━━━━━┛\n\n` +
+                    `👋 Hey @${userName}, welcome to *${metadata.subject}*!\n\n` +
+                    `📌 You are member number *${groupMembersCount}*.\n` +
+                    `⏰ Joined on: *${timestamp}*\n\n` +
+                    `📖 Please read the group description carefully:\n` +
+                    `_${desc}_\n\n` +
+                    `━━━━━━━━━━━━━━━━━━━━━\n` +
+                    `⚡ *POWERED BY INCONNU BOY* ⚡`;
 
                 await conn.sendMessage(update.id, {
                     image: { url: ppUrl },
@@ -60,13 +61,14 @@ const GroupEvents = async (conn, update) => {
                 });
 
             } else if (update.action === "remove" && config.WELCOME === "true") {
-                const GoodbyeText = `Goodbye @${userName}. 😔\n` +
-                    `Another member has left the group.\n` +
-                    `Time left: *${timestamp}*\n` +
-                    `The group now has ${groupMembersCount} members. 😭`
-
-                    
-                    `> ᴘᴏᴡᴇʀᴇᴅ ʙʏ inconnu boy.`;
+                const GoodbyeText = `┏━━━━━━━━━━━━━━━━┓\n` +
+                    `👋 *GOODBYE MEMBER!* 👋\n` +
+                    `┗━━━━━━━━━━━━━━━━┛\n\n` +
+                    `@${userName} has left the group.\n\n` +
+                    `📆 Time left: *${timestamp}*\n` +
+                    `👥 Members remaining: *${groupMembersCount}*\n\n` +
+                    `━━━━━━━━━━━━━━━━━━━━━\n` +
+                    `⚡ *POWERED BY INCONNU BOY* ⚡`;
 
                 await conn.sendMessage(update.id, {
                     image: { url: ppUrl },
