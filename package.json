@@ -2,7 +2,7 @@
   "name": "QUEEN-ASUNA-MD",
   "version": "1.0.0",
   "description": "A WhatsApp Bot Created By INCONNU BOY",
-  "main": "main.js",
+  "main": "asuna.js",
   "scripts": {
     "start": "pm2 start main.js --deep-monitoring --attach --name QUEEN-ASUNA-MD",
     "stop": "pm2 stop QUEEN-ASUNA-MD",
