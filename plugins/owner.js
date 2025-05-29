@@ -29,7 +29,7 @@ async (conn, mek, m, { from, reply }) => {
 
         // Message stylisé avec image
         await conn.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/5vehos.jpg' },
+            image: { url: 'https://files.catbox.moe/p1xybt.jpg' },
             caption: `
 ╭━━━〔 *👑 OWNER INFO* 〕━━━╮
 ┃ ✦ *Nom* : ${ownerName}
