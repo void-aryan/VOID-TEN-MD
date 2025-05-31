@@ -33,7 +33,7 @@ async (conn, mek, m, { from, reply }) => {
 ┃ ✦ ᴍᴏᴅᴇ : *${config.MODE}*
 ┃ ✦ ᴘʀᴇғɪx : [${config.PREFIX}]
 ┃ ✦ ᴄᴍᴅs : ${totalCommands}
-┃ ✦ ᴅᴇᴠ : *INCONNU BOY*
+┃ ✦ ᴅᴇᴠ : *ɪɴᴄᴏɴɴᴜ ʙᴏʏ x ᴅᴇᴠ ᴀꜱᴋ*
 ┃ ✦ ᴠᴇʀ : *1.0.0*
 ╰━━━━━━━━━━━━━━━━━╯
 
@@ -55,8 +55,8 @@ async (conn, mek, m, { from, reply }) => {
       menuText += `\n╭───〔 *${k.toUpperCase()} MENU* 〕───╮`;
       const cmds = category[k].filter(c => c.pattern).sort((a, b) => a.pattern.localeCompare(b.pattern));
       cmds.forEach((cmd) => {
-        const usage = cmd.pattern.split('|')[0];
-        menuText += `\n│ ✧ \`${config.PREFIX}${usage}\``;
+        const usage = cmd.pattern.split('|')[0]; // utilise seulement le premier alias
+        menuText += `\n│ ✧ 👸${usage}`; // remplace le préfixe par 👸
       });
       menuText += `\n╰──────────────────╯`;
     }
@@ -72,7 +72,7 @@ async (conn, mek, m, { from, reply }) => {
         mentionedJid: [m.sender],
         externalAdReply: {
           title: "QUEEN ASUNA MD",
-          body: "MADE IN BY INCONNU BOY",
+          body: "MADE IN BY INCONNU BOY AND DEV ASK",
           mediaType: 4,
           renderLargerThumbnail: true,
           sourceUrl: 'https://github.com/INCONNU-BOY/QUEEN-ASUNA-MD'
@@ -85,4 +85,3 @@ async (conn, mek, m, { from, reply }) => {
     reply(`❌ Error: ${e.message}`);
   }
 });
-
