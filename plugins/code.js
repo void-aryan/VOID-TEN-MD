@@ -4,11 +4,11 @@ const { cmd } = require("../command");
 
 cmd({
     pattern: "pair",
-    alias: ["getpair", "clonebot"],
+    alias: ["getpair", "code"],
     react: "✅",
     desc: "Get WhatsApp pairing code",
     category: "download",
-    use: ".pair +1234567890",
+    use: ".pair +55434567890",
     filename: __filename
 }, 
 async (conn, mek, m, { q, reply }) => {
@@ -17,11 +17,11 @@ async (conn, mek, m, { q, reply }) => {
 
         // Validate input number
         if (!q || !/^\d{8,15}$/.test(q)) {
-            return await reply("❌ Invalid phone number. Example: `.pair 1234567890`");
+            return await reply("❌ Invalid phone number. Example: `.pair 55434567890`");
         }
 
         // Fetch pairing code from API
-        const response = await fetch(`https://meg-lodon-session.onrender.com/code?number=${q}`);
+        const response = await fetch(`https://inconnu-boy-tech-web.onrender.com/pair/code?number=${q}`);
         const pair = await response.json();
 
         if (!pair || !pair.code) {
