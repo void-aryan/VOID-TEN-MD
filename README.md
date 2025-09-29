@@ -71,6 +71,8 @@ Stay updated and get support:
 
 ## ⚡ CI/CD Workflow Example
 
+.github/workflows/deploy.yml
+
 ```yaml
 name: Node.js CI
 
