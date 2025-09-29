@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Dancing+Script&size=70&pause=1000&color=FF69B4&center=true&vCenter=true&width=1000&height=180&lines=INCONNU+XD+V2;Version+2.0.0;Created+By+INCONNU+BOY" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Dancing+Script&size=70&pause=1000&color=FF69B4&center=true&vCenter=true&width=1000&height=180&lines=QUEEN+ASUNA+MD;Version+1.0.0;Created+By+INCONNU+BOY" alt="Typing SVG" />
   </a>
 </p>
 
@@ -14,7 +14,7 @@
 
 Get your own copy and start customizing:
 
-[![FORK REPO](https://img.shields.io/badge/FORK%20REPO-Click%20Here-FF69B4?style=for-the-badge&logo=github)](https://github.com/INCONNU-BOY/INCONNU-XD-V2/fork)
+[![FORK REPO](https://img.shields.io/badge/FORK%20REPO-Click%20Here-FF69B4?style=for-the-badge&logo=github)](https://github.com/INCONNU-BOY/QUEEN-ASUNA-MD/fork)
 
 ---
 
@@ -37,7 +37,7 @@ Stay updated and get support:
 ## 🚀 Quick Deployment Options
 
 ### 💖 Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new-app?template=https://github.com/INCONNU-BOY/INCONNU-XD-V2)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new-app?template=https://github.com/INCONNU-BOY/QUEEN-ASUNA-MD)
 
 ---
 
@@ -47,7 +47,7 @@ Stay updated and get support:
 ---
 
 ### 🌸 Deploy to Replit
-<a href="https://repl.it/github/INCONNU-BOY/INCONNU-XD-V2"><img alt="Replit" src="https://img.shields.io/badge/REPLIT-orange?style=for-the-badge&logo=replit&logoColor=white"/></a>
+<a href="https://repl.it/github/INCONNU-BOY/QUEEN-ASUNA-MD"><img alt="Replit" src="https://img.shields.io/badge/REPLIT-orange?style=for-the-badge&logo=replit&logoColor=white"/></a>
 
 ---
 
