@@ -1,6 +1,6 @@
-name: queen-asuna-md
+name: void-ten-md
 services:
-  - name: queen-asuna-md-service
+  - name: void-ten-md-service
     type: web
     ports:
       - 5000
