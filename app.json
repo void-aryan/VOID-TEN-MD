@@ -1,8 +1,8 @@
 {
-  "name": "QUEEN-ASUNA-MD",
-  "description": "QUEEN ASUNA WHATSAPP BOT MADE BY INCONNU BOY TECH BOT",
-  "logo": "https://files.catbox.moe/p1xybt.jpg",
-  "keywords": ["INCONNU-BOY-TECH"],
+  "name": "VOID-TEN-MD",
+  "description": "VOID TEN MD WHATSAPP BOT MADE BY VOID TEN TECH BOT",
+  "logo": "https://files.catbox.moe/cpxeml.jpg",
+  "keywords": ["VOID-TEN-TECH"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "QUEEN-ASUNA-MD"
+      "value": "VOID-TEN-MD"
     }, 
       
     "PREFIX": {
@@ -79,7 +79,7 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY QUEEN-ASUNA-MD 👸*"
+      "value": "*SEEN YOUR STATUS BY VOID-TEN-MD 🍓*"
    
      }, 
     
@@ -92,14 +92,14 @@
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "554xxxxxx"
+      "value": "2254xxxxxx"
 
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "QUEEN-ASUNA-MD"
+      "value": "VOID-TEN-MD"
 
       }, 
 
@@ -132,13 +132,13 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://files.catbox.moe/p1xybt.jpg"
+      "value": "https://files.catbox.moe/cpxeml.jpg"
     },
     
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "> *MADE BY INCONNU BOY*"
+      "value": "> *MADE BY VOID TEN*"
     },
 
       "DELETE_LINKS": {
